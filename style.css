@@ -51,7 +51,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 #input{
     text-align: center;
-    padding: .5rem;
+    padding: .8rem;
     margin: 1rem;
     border-radius: 5px;
     border: none;
@@ -63,7 +63,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 #result{
     text-align: center;
     pointer-events: none;
-    padding: .5rem;
+    padding: .8rem;
     margin: 1rem;
     border-radius: 5px;
     border: none;
@@ -73,7 +73,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     font-weight: 500;
 }
 #input:focus{
-    border: 2px soild #317874;
+    outline: 2px solid #317874
 }
 ::placeholder{
     opacity: .5;
@@ -82,7 +82,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 select{
     border-radius: 5px;
     margin: 1rem;
-    padding: 1rem;
+    padding: 10rem;
     font-size: 1rem;
     border: none;
     color: #fff;
