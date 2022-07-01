@@ -3,7 +3,10 @@ let  result = document.getElementById('result')
 const inputOptions = document.getElementById('inputOptions')
 const outputOptions = document.getElementById('outputOptions')
 function conversion(){
-    if(inputOptions.value == "bit" && outputOptions.value == "kb" ){
+    if(inputOptions.value == "bit" && outputOptions.value == "bit"){
+        result.value = input.value
+    }
+    else if(inputOptions.value == "bit" && outputOptions.value == "kb" ){
         result.value= (input.value/1024).toFixed(4)
     }
     else if(inputOptions.value == "bit" && outputOptions.value == "mb"){

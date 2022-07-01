@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,36 +9,38 @@
     <script src="app.js" defer></script>
     <title>Digital Storage Convetor | By Lakshay Kamat</title>
 </head>
+
 <body>
-    <main>
-        <section>
-            <div class="text">
-                <h1>Data Conversion</h1>
-            </div>
+    <section>
+        <div class="text">
+            <h1>Data Conversion</h1>
+        </div>
+        
+        <main>
+        <div class="divinput">
+            <input type="number" name="input" id="input" placeholder="Enter a Number">
+            <select name="inputOptions" id="inputOptions">
+                <option value="bit">Bit</option>
+                <option value="kb">Kibibit</option>
+                <option value="mb">Mebibit</option>
+                <option value="gb">Gibibit</option>
+                <option value="tb">Tebibit</option>
+            </select>
+        </div>
 
-            <div>
-                <input type="number" name="input" id="input" placeholder="Enter a Number">
-                    <select name="inputOptions" id="inputOptions">
-                        <option value="bit">Bit</option>
-                        <option value="kb">Kibibit</option>
-                        <option value="mb">Mebibit</option>
-                        <option value="gb">Gibibit</option>
-                        <option value="tb">Tebibit</option>
-                    </select>
-            </div>
+        <div class="divinput">
+            <input type="number" name="result" id="result">
+            <select name="outputOptions" id="outputOptions">
+                <option value="bit">Bit</option>
+                <option value="kb">Kibibit</option>
+                <option value="mb">Mebibit</option>
+                <option value="gb">Gibibit</option>
+                <option value="tb">Tebibit</option>
+            </select>
+        </div>
+        </main>
 
-            <div>
-                <input type="number" name="result" id="result">
-                    <select name="outputOptions" id="outputOptions">
-                        <option value="bit">Bit</option>
-                        <option value="kb">Kibibit</option>
-                        <option value="mb">Mebibit</option>
-                        <option value="gb">Gibibit</option>
-                        <option value="tb">Tebibit</option>
-                    </select>
-            </div>
-
-        </section>
-    </main>
+    </section>
 </body>
+
 </html>

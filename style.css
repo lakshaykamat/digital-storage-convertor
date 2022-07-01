@@ -11,6 +11,7 @@ body{
     background-color: #317874;
 }
 h1{
+    text-align: center;
     font-size: 2rem;
     color: #317874;
 }
@@ -20,6 +21,27 @@ section{
     padding: 2rem 4rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:545px) {
+    section{
+        margin: 1rem;
+        padding: 1rem;
+    }
+    select{
+        width: 30%;
+    }
+    #input{
+        width: 50%;
+    }
+    #result{
+        width: 50%;
+    }
+
+}
+.divinput{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -39,6 +61,7 @@ input[type="number"]:disabled
     opacity:1;
 }
 select{
+    margin: 1rem;
     padding: 1rem;
     font-size: 1rem;
     border: none;
@@ -48,5 +71,4 @@ select{
 }
 option{
     width: inherit;
-
 }
