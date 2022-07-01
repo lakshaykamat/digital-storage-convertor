@@ -8,19 +8,45 @@ body{
     align-items: center;
     outline: 2px solid;
     height: 100vh;
-    background-color: black;
+    background-color: #317874;
+}
+h1{
+    font-size: 2rem;
+    color: #317874;
 }
 section{
+    background-color: #e2d2f9;
+    width: fit-content;
     padding: 2rem 4rem;
-    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 #input{
+    text-align: center;
+    padding: .5rem;
     margin: 1rem;
 }
 #result{
+    text-align: center;
+    pointer-events: none;
+    padding: .5rem;
     margin: 1rem;
+}
+input[type="number"]:disabled
+{
+    opacity:1;
+}
+select{
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+    padding: .2rem;
+    background-color: #317874;
+}
+option{
+    width: inherit;
+
 }
