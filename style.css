@@ -37,6 +37,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
         padding: 1rem;
     }
     select{
+        font-size: 1rem;
         width: 30%;
     }
     #input{
@@ -85,15 +86,20 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     color: #fff;
 }
 select{
+    cursor: pointer;
+    border: none;
     border-radius: 5px;
     margin: 1rem;
-    padding: 10rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border: none;
     color: #fff;
-    padding: .2rem;
-    background-color: #317874;
+    padding: .5rem;
+    background: #317874;
+}
+select:hover{
+    outline:2px solid #84b7b5;
 }
 option{
-    width: inherit;
+    background: #317874;
+    color: #fff;
 }
