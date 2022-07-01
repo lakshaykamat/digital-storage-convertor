@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid;
+    height: 100vh;
+    background-color: black;
+}
+section{
+    padding: 2rem 4rem;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#input{
+    margin: 1rem;
+}
+#result{
+    margin: 1rem;
+}
